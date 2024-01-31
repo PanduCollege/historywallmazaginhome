@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+  <link rel="stylesheet" href="styles.css">
+</head>  
+  <body translate="no">
+    <header>
+    <h1>History Department<br> Wall Magazine</h1>
+  </header>
+  <section class="section1">
+          <div class="book">
+            <div id="embeddedContent"></div>
+            </div>          
+  </section>
+  <section class="section2">
+    <h2>
+      The students of BA Second and Fourth Semester honors students of the Department of History prepared a departmental wall magazine titled Historia for the academic session 2022-23. The theme for the wall magazine was the Bhakti Movement. Historia was edited by Anushka Dey, a student of BA fourth semester and all the students of BA second and fourth semester honors were members. The wall magazine had eight different articles on the theme and it had beautiful artworks by the students on different aspects of the Bhakti Movement. Historia can be considered as a platform for the students to showcase their artistic and literary talent. In the inter- departmental wall magazine competition organized by the IQAC, Pandu College, Historia won the third prize.
+    </h2>
+  </section>
+  <script>
+    // Function to embed content from a different website
+    function embedExternalContent() {
+        // Replace "https://example.com/" with the actual URL
+        var externalUrl = "https://panducollege.github.io/historywallmazagin2023/";
+
+        // Create an iframe element
+        var iframe = document.createElement('iframe');
+
+        // Set attributes for the iframe
+        iframe.src = externalUrl;
+        iframe.width = "100%";
+        iframe.height = "100%";
+        iframe.frameBorder = "0"; // Remove iframe border
+
+        // Append the iframe to the container element
+        document.getElementById('embeddedContent').appendChild(iframe);
+    }
+
+    // Call the function to embed content when the page loads
+    window.onload = function() {
+        embedExternalContent();
+    };
+</script>
+
+  </body>
+  </html>
